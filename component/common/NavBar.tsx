@@ -1,10 +1,14 @@
+import Link from 'next/link';
 import React from 'react';
 
 function NavBar() {
   return (
     <div className="navbar bg-base-100">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">또타</a>
+  <Link  href='/'>
+    <a className="btn btn-ghost normal-case text-xl">
+      또타</a>
+      </Link>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal p-0">
