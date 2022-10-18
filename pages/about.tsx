@@ -8,6 +8,7 @@ function About() {
     <div className='container mx-auto'>
       <NavBar></NavBar>
       <h1 className='prose'>또타 서비스에 관하여</h1>
+
       <article className='prose'>또타란?
         <p>또타는 정기 택시 구독 서비스입니다. "또 타지 않을래?" 라는 의미를 담고 있습니다.</p>
         <p></p>
