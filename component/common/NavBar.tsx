@@ -19,7 +19,7 @@ function NavBar() {
           <li><Link href='/about'>
             <a >또타란?</a>
             </Link> </li>
-            
+          
           <li><a>목표</a></li>
           <li><a>직원 소개</a></li>
         </ul>
