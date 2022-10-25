@@ -1,7 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 function ConceptDrivers(props) {
   const {driverName, careerAge, concept} = props;
 
   return (
+    <>
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
       <div className="card-body">
@@ -13,6 +15,7 @@ function ConceptDrivers(props) {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
