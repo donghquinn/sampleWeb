@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from "../component/common/NavBar";
 
 function Login() {

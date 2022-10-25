@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import React from 'react';
+
 function ConceptDrivers(props) {
   const {driverName, careerAge, concept} = props;
 

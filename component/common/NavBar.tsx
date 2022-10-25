@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import React from 'react';
+import Link from 'next/link';
 
 function NavBar() {
   return (
@@ -18,7 +18,8 @@ function NavBar() {
         <ul className="p-2 bg-base-100">
           <li><Link href='/about'>
             <a >또타란?</a>
-            </Link></li>
+            </Link> </li>
+            
           <li><a>목표</a></li>
           <li><a>직원 소개</a></li>
         </ul>

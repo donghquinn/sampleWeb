@@ -1,4 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
+import React from 'react';
+
 function DriverCards(props) {
   const {driverName, careerAge} = props;
 
