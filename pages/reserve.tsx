@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../component/common/Footer';
 import NavBar from '../component/common/NavBar';
 import ConceptDrivers from '../component/drivers/conceptDrive';
 import DriverCards from '../component/drivers/drivers';
@@ -28,6 +29,8 @@ function Reserve() {
         <ConceptDrivers driverName='같이가' careerAge='19' concept='카풀 택시'></ConceptDrivers>
         <ConceptDrivers driverName='대형견' careerAge='33' concept='대형견 탑승 가능 택시'></ConceptDrivers>
       </div>
+
+      <Footer></Footer>
   </div>
   )
 }

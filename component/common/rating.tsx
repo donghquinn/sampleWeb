@@ -13,3 +13,5 @@ function Rating() {
   <input type="radio" name="rating-10" className="bg-green-500 mask mask-star-2 mask-half-2" />
 </div>
 }
+
+export default Rating;
