@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image';
 import React from 'react';
+import picture from '../../public/people.png'
 
 function ConceptDrivers(props) {
   const {driverName, careerAge, concept} = props;
@@ -7,7 +9,7 @@ function ConceptDrivers(props) {
   return (
     <>
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
-      <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+      <figure><Image src={picture} alt="Shoes" /></figure>
       <div className="card-body">
         <h2 className="card-title">{driverName}</h2>
         <p>운전 경력: {careerAge}년</p>

@@ -4,8 +4,8 @@ import React from "react";
 function CallButton() {
   return (
     <div>
-      <Link href='/'>
-        <button className="btn call" >호출</button>
+      <Link href='/driver'>
+        <button className="center btn call">호출</button>
       </Link>
     </div>
   )

@@ -11,7 +11,7 @@ function Reserve() {
       <NavBar></NavBar>
       <div className="flex flex-col w-full">
 
-      <h1>일반 택시 기사님들</h1>
+      <h1 className='driver-header'>일반 택시 기사님들</h1>
         <div className='flex flex-start row'> 
           <DriverCards driverName='도라이버' careerAge="30"></DriverCards>
           <DriverCards driverName='김세종' careerAge='27'></DriverCards>
@@ -32,7 +32,7 @@ function Reserve() {
           <ConceptDrivers driverName='대형견' careerAge='33' concept='대형견 탑승 가능 택시'></ConceptDrivers>
         </div>
 
-        <Footer></Footer>
+
      </div>
   </>
   )
