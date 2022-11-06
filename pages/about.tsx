@@ -3,26 +3,31 @@ import Footer from '../component/common/Footer';
 import NavBar from '../component/common/NavBar';
 
 function About() {
-
   return (
-    <div className='container mx-auto'>
+    <div>
       <NavBar></NavBar>
-      <h1 className='prose'>또타 서비스에 관하여</h1>
+      <div>
+        <h1>또타란?</h1>
+      </div>
+      <div className='divider'></div>
+      <div>
+      고객 맞춤형으로 원하는 시간대에 미리 예약해서 이용할 수 있고
+구독권 결제를 통해 조금 더 저렴한 가격에 택시를 이용할 수 있습니다.
+택시 기사님에게는 이용객의 수를 늘려 고정 수익 또한 플러스가 되는 혜택을 누릴 수 있습니다
+      </div>
+      <div className='divider'></div>
+      <div>
+      <p>
+      사용자 : 고객 맞춤형으로 원하는 시간대에 미리 예약해서 이용할 수 있으며
+      구독권 결제를 통해 저렴한 가격에 택시를 이용할 수 있습니다.
+      </p>
 
-      <article className='prose'>또타란?
-        <p>또타는 정기 택시 구독 서비스입니다. "또 타지 않을래?" 라는 의미를 담고 있습니다.</p>
-        <p></p>
-        </article>
-
-      <article className='prose'>또타의 취지
-        <p>대중 교통을 이용하기에 시간적으로 여유도 없고 이동중에는 편하게 쉬고 싶고.
-        하지만 택시비가 부담되어 사람들에 치여 가셨나요
-        택시는 잡기 힘들고, 가야할 길은 멀고.
-        내가 원할 타이밍에 안정적으로 택시를 잡을 수 있으면 좋겠다고 생각하셨나요.
-        또타는 사용자에게는 안정적인 택시 호출과 비용 절감을 위한 택시 정기 구독 서비스 입니다.</p>
-        </article>
-      <Footer></Footer>
+      <p>
+      기사님 : 구독 서비스를 통해 이용객의 수를 늘려 고정 수익 또한 플러스가 되는 혜택을 누릴 수 있습니다.
+      </p>
+      </div>
     </div>
+
   )
 }
 

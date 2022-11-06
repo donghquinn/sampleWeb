@@ -1,0 +1,90 @@
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid grey;
+}
+
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* layout: "fill";
+  objectFit:"cover";
+  objectPosition:"center"; */
+}
+
+.hashtag1 {
+  position:auto;
+  /* left:0%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+
+.hashtag-title {
+  font-size: x-small;
+}
+
+.selected-title {
+  font-size: medium;
+  font-weight:300;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  margin: 0;
+  left: 50%;
+  top: 30%;
+  postion: absolute;
+}
+
+.center-bottom {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.call {
+  background-color: #8858EA;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+}
+
+.back {
+  background:fixed;
+  margin: 0;
+  position: absolute;
+  left: 40%;
+}
+
+.back1 {
+  background:fixed;
+  background-color: #7665ff;
+  margin: 0;
+  position: absolute;
+  left: 40%;
+}
+
+.subscribe-button {
+  background-color: #dbd2fd;
+  font: bold;
+  color: black;
+}
