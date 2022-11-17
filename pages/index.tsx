@@ -14,11 +14,7 @@ function Home() {
       <div className='logo'>
         <Image src={mainLogo}></Image>
       </div>
-   {/* <div className='center'> */}
-  {/* </div> */}
-  {/* <div className='center-bottom'> */}
 
-  {/* </div> */}
 
 
 </div>

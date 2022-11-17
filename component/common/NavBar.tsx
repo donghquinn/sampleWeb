@@ -21,8 +21,8 @@ function NavBar() {
           <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
         </a>
         <ul className="p-2 bg-base-100">
-          <li><a>대학생을 위한 구독권</a></li>
-          <li><a>맞춤형 테마 구독권</a></li>
+          <li><Link href="/unive-sub"><a>대학생을 위한 구독권</a></Link></li>
+          <li><Link href="/theme-sub"><a>맞춤형 테마 구독권</a></Link></li>
         </ul>
       </li>
       <li><Link href='/login'><a>로그인/회원가입</a></Link></li>
