@@ -1,43 +1,34 @@
-import React from 'react';
+
+import mainLogo from '../../public/logo.png'
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/logo.png'
 
 function NavBar() {
   return (
-      <div className="navbar bg-base-100">
-    <div className="navbar-start">
-      <div className="dropdown">
-        <label tabIndex={0} className="btn btn-ghost btn-circle">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-        </label>
-        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-          <Link href='/'>
-            <li><a>Homepage</a></li>
-          </Link>
-          <li><a>Portfolio</a></li>
-          <Link href='/about'><li><a>About</a></li></Link>
+    <div className="navbar bg-base-100">
+    <div className="flex-1">
+      <Link href='/'>
+      <Image src={mainLogo} height={60} width={60}></Image>
+      </Link>
+    </div>
+  <div className="flex-none">
+    <ul className="menu menu-horizontal p-0">
+       <li><Link href='/about'><a>회사소개</a></Link></li>
+      <li tabIndex={0}>
+        <a>
+          구독권
+          <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+        </a>
+        <ul className="p-2 bg-base-100">
+          <li><a>대학생을 위한 구독권</a></li>
+          <li><a>맞춤형 테마 구독권</a></li>
         </ul>
-      </div>
-    </div>
-    <div className="navbar-center">
-    <Link href='/'>   
-        <Image src={logo} height='40' width='40'></Image>
-         </Link>
-
-    </div>
-    <div className="navbar-end">
-      <button className="btn btn-ghost btn-circle">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-      </button>
-      <button className="btn btn-ghost btn-circle">
-        <div className="indicator">
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-          <span className="badge badge-xs badge-primary indicator-item"></span>
-        </div>
-      </button>
-    </div>
+      </li>
+      <li><Link href='/login'><a>로그인/회원가입</a></Link></li>
+    </ul>
   </div>
+</div>
   )
 }
 

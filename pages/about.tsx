@@ -5,7 +5,6 @@ import NavBar from '../component/common/NavBar';
 function About() {
   return (
     <div>
-      <NavBar></NavBar>
       <div>
         <h1>또타란?</h1>
       </div>

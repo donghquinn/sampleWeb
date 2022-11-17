@@ -5,7 +5,6 @@ import NavBar from "../component/common/NavBar";
 function Login() {
   return(
     <div>
-      <NavBar></NavBar>
       <div className="hero min-h-screen bg-base-200">
     <div className="hero-content flex-col lg:flex-row-reverse">
 
@@ -23,7 +22,7 @@ function Login() {
             </label>
             <input type="text" placeholder="password" className="input input-bordered" />
             <label className="label">
-              <a href="#" className="label-text-alt link link-hover">비밀번호 찾기</a>
+              <a href="/signup" className="label-text-alt link link-hover">회원가입</a>
             </label>
           </div>
           <div className="form-control mt-6">

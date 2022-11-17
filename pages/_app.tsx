@@ -3,6 +3,7 @@ import '../styles/module.css'
 import React from 'react'
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import NavBar from '../component/common/NavBar';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
@@ -14,9 +15,10 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1431674278951978"
         crossOrigin="anonymous"></script>
     </Head>
-    <div className="artboard phone-3 phone-1 back">
+    <div>
+    <NavBar></NavBar>
       <Component  {...pageProps}></Component>
-      </div>
+    </div>
     {/* <Component {...pageProps} /> */}
   </>
   )
