@@ -47,7 +47,18 @@
 .title {
   margin: 0;
   position: absolute;
-  top: 20%;
+  font-size: 200%;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.title2 {
+  margin: 0;
+  position: absolute;
+  font-size: 150%;
+  top: 15%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
