@@ -34,11 +34,27 @@
   font-weight:300;
 }
 
+.main-card {
+  background-color: #7665ff;
+  left: 50%
+}
+
 
 .center {
   margin: 0;
   position: absolute;
   top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.index-title {
+  color: white;
+  margin: 0;
+  position: absolute;
+  font-size: 200%;
+  top: 30%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
