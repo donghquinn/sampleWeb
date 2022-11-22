@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import mainLogo from '../public/main-logo.png';
+import Link from 'next/link';
 // import style from  '../styles/module.css'
 
 // style={{flex:1, flexDirection: 'row',alignItems: 'center', justifyContent:"center"}}
@@ -7,13 +6,17 @@ function Home() {
   
   return (
     <div>
-
-    <div className="card  w-full max-w-sm shadow-2xl bg-base-100 main-card">
-      <div className="card-body main-card">
-      <h1 className='index-title'>또 타</h1>
+      <div className="hero min-h-screen" style={{ backgroundImage: `url(/main-logo.png)` }}>
+        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-content text-center text-neutral-content">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">또타</h1>
+            <p className="mb-5"></p>
+            <Link href='/subscribe'><button className="btn btn-primary">구독하기</button></Link>
+          </div>
+        </div>
       </div>
-      </div>
-</div>
+    </div>
   )
 }
 

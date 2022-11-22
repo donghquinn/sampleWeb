@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import React from 'react';
-import NavBar from "../component/common/NavBar";
+import React, { useEffect } from 'react';
 
 function Login() {
+
   return(
     <div>
       <div className="hero min-h-screen bg-base-200">
@@ -27,7 +27,18 @@ function Login() {
           </div>
           <div className="form-control mt-6">
             <Link href='/subscribe'>
-             <button className="btn btn-primary" style={{backgroundColor: '#885EA'}}>로그인</button>
+             <button className="btn btn-primary" style={{backgroundColor: '#885EA'}} 
+            //  onClick={
+            //  () => {
+            //   useEffect(async () => {
+            //     try {
+            //       const result = await 
+            //     } catch (error) {
+            //       throw new Error('[Error!]')
+            //     }
+            //  })
+            //   }}
+              >로그인</button>
             </Link>
           </div>
         </div>

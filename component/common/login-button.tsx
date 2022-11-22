@@ -7,6 +7,9 @@ function LoginButton() {
       <Link href="/login">
     <button className="center-bottom btn btn-ghost">회원가입</button>
     </Link>
+    <div>
+       
+      </div>
     </div>
   )
 }

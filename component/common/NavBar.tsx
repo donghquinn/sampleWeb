@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import mainLogo from '../../public/logo.png';
+import mainLogo from '../../public/img/logo.png';
 
 function NavBar() {
   return (
