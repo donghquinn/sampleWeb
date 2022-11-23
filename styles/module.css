@@ -16,6 +16,10 @@
   objectPosition:"center"; */
 }
 
+.main-backgroud {
+  background-color: #7665ff;
+}
+
 .hashtag1 {
   position:auto;
   /* left:0%;
@@ -68,6 +72,12 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.about-title {
+  font-size: 170%;
+  font-weight: bold;
+  text-align: center;
 }
 
 .title2 {

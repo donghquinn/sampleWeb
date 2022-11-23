@@ -1,9 +1,11 @@
 .subscribe-theme {
-  top: 70%;
-  left: 40%;
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
 }
 
 .subscribe-univ {
-  top: 70%;
-  right: 60%
+  position: absolute;
+  bottom: 30%;
+  right: 10%
 }

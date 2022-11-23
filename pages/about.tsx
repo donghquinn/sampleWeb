@@ -6,9 +6,8 @@ function About() {
   return (
     <div>
       <div>
-        <h1>또타란?</h1>
+        <h1 className='about-title'>또타란?</h1>
       </div>
-      <div className='divider'></div>
       <div>
       고객 맞춤형으로 원하는 시간대에 미리 예약해서 이용할 수 있고
 구독권 결제를 통해 조금 더 저렴한 가격에 택시를 이용할 수 있습니다.

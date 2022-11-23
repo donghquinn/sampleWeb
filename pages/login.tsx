@@ -1,7 +1,9 @@
+import axios from 'axios';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 
 function Login() {
+  
 
   return(
     <div>
@@ -22,7 +24,7 @@ function Login() {
             </label>
             <input type="text" placeholder="password" className="input input-bordered" />
             <label className="label">
-              <a href="/signup" className="label-text-alt link link-hover">회원가입</a>
+              <Link href="/signup" className="label-text-alt link link-hover">회원가입</Link>
             </label>
           </div>
           <div className="form-control mt-6">
