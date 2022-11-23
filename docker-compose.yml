@@ -3,10 +3,10 @@ version: '3.7'
 services:
   front:
     build:
-      context: ./front
+      context: .
       dockerfile: ./Dockerfile
     expose:
-      - 4005
+      - 3000
     container_name: totta_front
     restart: always
     networks:
