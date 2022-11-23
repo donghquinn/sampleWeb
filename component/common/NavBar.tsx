@@ -5,7 +5,7 @@ import mainLogo from '../../public/img/logo.png';
 
 function NavBar() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100" style={{border: 'grey'}}>
     <div className="flex-1">
       <Link href='/'>
       <Image src={mainLogo} height={60} width={60}></Image>
