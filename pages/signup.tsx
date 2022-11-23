@@ -39,11 +39,8 @@ function Signup() {
         </div>
         <div className="form-control mt-6">
           <Link href='/login'>
-           <button className="btn btn-primary" style={{backgroundColor: '#885EA'}} onClick={
-            useEffect(async () => {
-              await loignRequest(name, email, passwd)
-            })
-           }>회원가입하기</button>
+           <button className="btn btn-primary" style={{backgroundColor: '#885EA'}} 
+           >회원가입하기</button>
           </Link>
         </div>
       </div>
