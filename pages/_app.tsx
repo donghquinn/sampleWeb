@@ -5,6 +5,7 @@ import React from 'react'
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import NavBar from '../component/common/NavBar';
+import Footer from '../component/common/Footer';
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   const router = useRouter();
@@ -19,6 +20,10 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     <div>
     <NavBar></NavBar>
       <Component  {...pageProps}></Component>
+
+    </div>
+    <div>
+    <Footer></Footer>
     </div>
     {/* <Component {...pageProps} /> */}
   </>
