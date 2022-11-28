@@ -1,16 +1,14 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-/* This example requires Tailwind CSS v3.0+ */
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const navigation = [
-  { name: '또타 소개', href: '/about' },
-  { name: '구독권 소개', href: '/subscribe' },
-]
+import React from 'react';
+
+// const navigation = [
+//   { name: '또타 소개', href: '/about' },
+//   { name: '구독권 소개', href: '/subscribe' },
+// ]
 
 function Home() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  // const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div>

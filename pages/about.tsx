@@ -1,5 +1,6 @@
 import React from 'react';
 import { BoltIcon, DevicePhoneMobileIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link';
 
 const features = [
   {
@@ -55,7 +56,12 @@ function About() {
             ))}
           </div>
         </div>
+        
+
       </div>
+      <Link href="/application">
+        <button className="btn btn-outline btn-primary">Button</button>
+      </Link>
     </div>
   )
 }

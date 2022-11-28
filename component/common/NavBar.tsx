@@ -9,6 +9,7 @@ import Link from 'next/link';
 const navigation = [
   { name: '또타 소개', href: '/about' },
   { name: '구독권 소개', href: '/subscribe' },
+  { name: '어플리케이션 소개', href: '/application'}
 ]
 
 function NavBar() {
