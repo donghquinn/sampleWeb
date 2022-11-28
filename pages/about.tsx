@@ -70,13 +70,15 @@ function About() {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col content-center">
-        <div className="flex justify-center">
-          <button className="btn btn-outline btn-primary flex">
-            어플리케이션 소개 보러 가기
-          </button>
+        <div className="flex justify-center ">
+          <Link href="/application">
+            <button className="btn btn-outline btn-primary flex">
+              어플리케이션 소개 보러 가기
+            </button>
+          </Link>
         </div>
-        {/* <Link href="/application"></Link> */}
       </div>
     </div>
   );
