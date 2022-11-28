@@ -20,9 +20,9 @@ const VideoPlayer = () => {
     <div className='player'>{hasWindow &&
       <ReactPlayer 
       className="player"
-      src='/videos/application.mp4'
-      width='100%'
-      height='100%'
+      url='/videos/application.mp4'
+      width='90%'
+      height='90%'
       playing={true}
       muted={true}
       loop={true}

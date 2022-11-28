@@ -53,7 +53,7 @@ function Footer() {
                 <span className="mt-7 md:mt-1">
                     Created by
                     <a className="underline hover:text-primary-gray-20" href="https://www.linkedin.com/in/crabiller/">
-                        Charlie
+                         Dong H. Kim
                     </a>
                 </span>
             </div>
