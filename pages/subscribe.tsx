@@ -21,9 +21,12 @@ function Subscribe() {
           <span style={{ fontWeight: "bold" }}>THEME 구독권:</span> 사랑하는
           당신의 가족을 위한 구독권
         </p>
-
+        <p style={{ textAlign: "center", fontWeight: "bold" }}>
+          #해시태그로 당신의 택시 탑승 취향을 알려주세요!
+        </p>
         <p style={{ textAlign: "center" }}>
-          #태그로 당신의 택시 탑승 취향을 알려주세요!
+          선택하신 해시태그를 기반으로 당신의 성향과 맞는 기사님을 매칭
+          시켜드려요!
         </p>
       </div>
 
