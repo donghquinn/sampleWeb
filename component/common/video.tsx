@@ -16,7 +16,7 @@ const VideoPlayer = () => {
         {hasWindow && (
           <ReactPlayer
             className="player"
-            url="/videos/application.mp4"
+            url="/videos/client_app.mp4"
             width="90%"
             height="90%"
             playing={true}

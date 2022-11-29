@@ -25,8 +25,9 @@ const features = [
     icon: BoltIcon,
   },
   {
-    name: "테마",
-    description: "여러분들의 성향, 상황 등에 맞는 택시를 구독할 수 있습니다.",
+    name: "맞춤",
+    description:
+      "해시태그를 통해 여러분들의 성향, 상황 등에 맞는 택시를 구독할 수 있습니다.",
     icon: DevicePhoneMobileIcon,
   },
 ];
