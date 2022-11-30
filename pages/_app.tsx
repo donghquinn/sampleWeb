@@ -25,9 +25,9 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         <NavBar></NavBar>
         <Component {...pageProps}></Component>
       </div>
-      <div>
+      {/* <div>
         <Footer></Footer>
-      </div>
+      </div> */}
       {/* <Component {...pageProps} /> */}
     </>
   );

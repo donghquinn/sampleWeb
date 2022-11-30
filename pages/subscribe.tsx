@@ -1,6 +1,11 @@
 /* eslint-disable react/jsx-no-undef */
 import Link from "next/link";
+import Image from "next/image";
+import family from "../public/img/family.jpeg";
+import ThemeSubscribe from "../component/common/theme-sub";
+import AboutBusySub from "../component/common/unive-sub";
 
+// TODO 기존 택시 이용보다 금액절감에 대해
 function Subscribe() {
   return (
     <div>
@@ -10,6 +15,12 @@ function Subscribe() {
         >
           정기권 구독
         </h1>
+        <p style={{ textAlign: "center" }}>
+          또타를 구독하게 된다면 다음과 같은 이점이 있습니다!
+        </p>
+        <ul>
+          <li></li>
+        </ul>
         <p style={{ textAlign: "center" }}>
           저희가 제공하는 구독은 두가지로 나뉩니다.
         </p>
@@ -30,20 +41,9 @@ function Subscribe() {
         </p>
       </div>
 
-      <div className="subscribe-theme">
-        <Link href="/theme-sub">
-          <button className="btn btn-primary">
-            바쁜 학생들과 직장인을 위한 구독
-          </button>
-        </Link>
-      </div>
-
-      <div className="subscribe-univ">
-        <Link href="/unive-sub">
-          <button className="btn btn-primary">
-            사랑하는 당신의 가족을 위한 구독
-          </button>
-        </Link>
+      <div className="flex flex-col content-start">
+        <ThemeSubscribe></ThemeSubscribe>
+        <AboutBusySub></AboutBusySub>
       </div>
     </div>
   );
