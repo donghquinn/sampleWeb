@@ -1,10 +1,12 @@
 import React from "react";
+import Image from "next/image";
+import busy from "../../public/img/busy.jpeg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 
 function AboutBusySub() {
   return (
-    <div className="flex flex-row justify-end ">
+    <div className="flex flex-row justify-center space-y-5">
       <Card sx={{ maxWidth: 1000 }}>
         <CardContent>
           <h1
@@ -16,8 +18,16 @@ function AboutBusySub() {
           >
             FAST 구독권
           </h1>
+          <Image
+            src={busy}
+            alt="family"
+            height={400}
+            width={400}
+            style={{ alignItems: "center" }}
+          ></Image>
           <p style={{ textAlign: "left" }}>
-            바쁜 대학생 / 직장인을 위한 구독권
+            바쁜 <span style={{ fontWeight: "bold" }}>대학생 / 직장인</span>을
+            위한 구독권
           </p>
           <p style={{ textAlign: "left" }}>
             {" "}
@@ -27,7 +37,12 @@ function AboutBusySub() {
           <p style={{ textAlign: "left" }}> 택시 이용 횟수가 많으신가요? </p>
           <p style={{ textAlign: "left" }}>
             {" "}
-            또타 FAST 구독권을 사용해 보세요!{" "}
+            그렇다면
+            <span style={{ fontWeight: "bold" }}>
+              {" "}
+              바쁜 학생들과 직장인을 위한 구독권
+            </span>{" "}
+            을 사용해 보세요!
           </p>
           <div className="flex flex-col content-center">
             <div className="flex justify-center ">

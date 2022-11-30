@@ -41,7 +41,7 @@ function Subscribe() {
         </p>
       </div>
 
-      <div className="flex flex-col content-start">
+      <div className="flex flex-col content-center">
         <ThemeSubscribe></ThemeSubscribe>
         <AboutBusySub></AboutBusySub>
       </div>

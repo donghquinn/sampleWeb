@@ -2,12 +2,13 @@ import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import dog from "../../public/img/dog.png";
+import carseat from "../../public/img/carseat.png";
 import Image from "next/image";
 import family from "../../public/img/family.jpeg";
 
 function ThemeSubscribe() {
   return (
-    <div className="flex flex-row justify-start">
+    <div className="flex flex-row justify-center space-y-5">
       <Card sx={{ maxWidth: 1000 }}>
         <CardContent>
           <h1
@@ -19,7 +20,14 @@ function ThemeSubscribe() {
           >
             THEME 구독권
           </h1>
-          <Image src={family} alt="family" height={300} width={300}></Image>
+          <Image
+            src={family}
+            alt="family"
+            height={400}
+            width={400}
+            style={{ alignItems: "center" }}
+          ></Image>
+
           <p style={{ textAlign: "left" }}>
             사랑하는 당신의 <span style={{ fontWeight: "bold" }}>가족</span>을
             위한 구독권
@@ -39,7 +47,8 @@ function ThemeSubscribe() {
             </span>
             을 선물해보세요!
           </p>
-          <div className="flex flex-col content-center">
+
+          <div className="flex flex-col content-center ">
             <div className="flex justify-center ">
               <Card sx={{ maxWidth: 345 }}>
                 <CardContent>
@@ -78,7 +87,7 @@ function ThemeSubscribe() {
           </div>
         </CardContent>
       </Card>
-      <Image src={dog} alt="doggy"></Image>
+      <div></div>
     </div>
   );
 }
