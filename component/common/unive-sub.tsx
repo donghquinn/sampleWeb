@@ -7,7 +7,7 @@ import CardContent from "@mui/material/CardContent";
 function AboutBusySub() {
   return (
     <div className="flex flex-row justify-center space-y-5">
-      <Card sx={{ maxWidth: 1000 }}>
+      <Card sx={{ maxWidth: 1000 }} style={{ width: 600 }}>
         <CardContent>
           <h1
             style={{
@@ -18,13 +18,17 @@ function AboutBusySub() {
           >
             FAST 구독권
           </h1>
-          <Image
-            src={busy}
-            alt="family"
-            height={400}
-            width={400}
-            style={{ alignItems: "center" }}
-          ></Image>
+          <div className="flex flex-col content-center">
+            <div className="flex justify-center">
+              <Image
+                src={busy}
+                alt="family"
+                height={400}
+                width={400}
+                style={{ alignItems: "center" }}
+              ></Image>
+            </div>
+          </div>
           <p style={{ textAlign: "left" }}>
             바쁜 <span style={{ fontWeight: "bold" }}>대학생 / 직장인</span>을
             위한 구독권

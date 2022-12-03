@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
-import React from 'react';
+import React from "react";
 
 // const navigation = [
 //   { name: '또타 소개', href: '/about' },
@@ -19,7 +19,7 @@ function Home() {
               <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                 <div className="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   <span className="text-gray-600">
-                    또타에 대해 더 알고 싶으신가요? {' '}
+                    또타에 대해 더 알고 싶으신가요?{" "}
                     <a href="/about" className="font-semibold text-indigo-600">
                       <span className="absolute inset-0" aria-hidden="true" />
                       자세히 보기 <span aria-hidden="true">&rarr;</span>
@@ -45,7 +45,7 @@ function Home() {
                     </span>
                   </a>
                   <a
-                    href="#"
+                    href="/preparing"
                     className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                   >
                     어플리케이션 받으러 가기
@@ -87,8 +87,7 @@ function Home() {
         </div>
       </main>
     </div>
-  )
+  );
 }
 
-
-export default Home 
+export default Home;

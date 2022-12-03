@@ -9,7 +9,7 @@ import family from "../../public/img/family.jpeg";
 function ThemeSubscribe() {
   return (
     <div className="flex flex-row justify-center space-y-5">
-      <Card sx={{ maxWidth: 1000 }}>
+      <Card sx={{ maxWidth: 1000 }} style={{ width: 600, margin: 50 }}>
         <CardContent>
           <h1
             style={{
@@ -20,13 +20,17 @@ function ThemeSubscribe() {
           >
             THEME 구독권
           </h1>
-          <Image
-            src={family}
-            alt="family"
-            height={400}
-            width={400}
-            style={{ alignItems: "center" }}
-          ></Image>
+          <div className="flex flex-col content-center">
+            <div className="flex justify-center">
+              <Image
+                src={family}
+                alt="family"
+                height={400}
+                width={400}
+                style={{ alignItems: "center" }}
+              ></Image>
+            </div>
+          </div>
 
           <p style={{ textAlign: "left" }}>
             사랑하는 당신의 <span style={{ fontWeight: "bold" }}>가족</span>을
@@ -87,7 +91,6 @@ function ThemeSubscribe() {
           </div>
         </CardContent>
       </Card>
-      <div></div>
     </div>
   );
 }
