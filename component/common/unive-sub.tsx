@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import busy from "../../public/img/busy.jpeg";
+import busy from "../../public/img/worker.jpeg";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 
