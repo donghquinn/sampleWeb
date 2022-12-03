@@ -34,21 +34,21 @@ function ThemeSubscribe() {
 
           <div className="flex flex-col text-center">
             <div className="flex justify-center">
-              <div style={{ marginLeft: 70 }}>
-                <p style={{ textAlign: "left" }}>
+              <div>
+                <p style={{ textAlign: "center" }}>
                   사랑하는 당신의{" "}
                   <span style={{ fontWeight: "bold" }}>가족</span>을 위한 구독권
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   사랑하는 우리 <span style={{ fontWeight: "bold" }}>아이</span>
                   의 안전이 걱정되시나요?
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   소중한 우리{" "}
                   <span style={{ fontWeight: "bold" }}>반려동물</span>과
                   편안하게 택시를 탑승하고 싶으신가요?
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   그렇다면{" "}
                   <span style={{ fontWeight: "bold" }}>
                     {'"사랑하는 당신의 가족을 위한 맞춤형 정기 구독권"'}

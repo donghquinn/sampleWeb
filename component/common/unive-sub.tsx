@@ -36,21 +36,21 @@ function AboutBusySub() {
           <div className="flex flex-col text-center">
             <div className="flex justify-center">
               <div>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   바쁜{" "}
                   <span style={{ fontWeight: "bold" }}>대학생 / 직장인</span>을
                   위한 구독권
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   {" "}
                   <span style={{ fontWeight: "bold" }}>빠른 배차</span>가
                   필요하신가요?{" "}
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   {" "}
                   택시 이용 횟수가 많으신가요?{" "}
                 </p>
-                <p style={{ textAlign: "left" }}>
+                <p style={{ textAlign: "center" }}>
                   {" "}
                   그렇다면
                   <span style={{ fontWeight: "bold" }}>
