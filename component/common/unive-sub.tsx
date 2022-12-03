@@ -32,28 +32,40 @@ function AboutBusySub() {
               ></Image>
             </div>
           </div>
-          <p style={{ textAlign: "left" }}>
-            바쁜 <span style={{ fontWeight: "bold" }}>대학생 / 직장인</span>을
-            위한 구독권
-          </p>
-          <p style={{ textAlign: "left" }}>
-            {" "}
-            <span style={{ fontWeight: "bold" }}>빠른 배차</span>가
-            필요하신가요?{" "}
-          </p>
-          <p style={{ textAlign: "left" }}> 택시 이용 횟수가 많으신가요? </p>
-          <p style={{ textAlign: "left" }}>
-            {" "}
-            그렇다면
-            <span style={{ fontWeight: "bold" }}>
-              {" "}
-              바쁜 학생들과 직장인을 위한 구독권
-            </span>{" "}
-            을 사용해 보세요!
-          </p>
+
+          <div className="flex flex-col text-center">
+            <div className="flex justify-center">
+              <div>
+                <p style={{ textAlign: "left" }}>
+                  바쁜{" "}
+                  <span style={{ fontWeight: "bold" }}>대학생 / 직장인</span>을
+                  위한 구독권
+                </p>
+                <p style={{ textAlign: "left" }}>
+                  {" "}
+                  <span style={{ fontWeight: "bold" }}>빠른 배차</span>가
+                  필요하신가요?{" "}
+                </p>
+                <p style={{ textAlign: "left" }}>
+                  {" "}
+                  택시 이용 횟수가 많으신가요?{" "}
+                </p>
+                <p style={{ textAlign: "left" }}>
+                  {" "}
+                  그렇다면
+                  <span style={{ fontWeight: "bold" }}>
+                    {" "}
+                    바쁜 학생들과 직장인을 위한 구독권
+                  </span>{" "}
+                  을 사용해 보세요!
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="flex flex-col content-center">
             <div className="flex justify-center ">
-              <Card sx={{ maxWidth: 345 }}>
+              <Card sx={{ maxWidth: 345, margin: 5 }}>
                 <CardContent>
                   {/* <p>
                 30km 권 + 500원 할인쿠폰 3장 30,000원 상당의 것을 {"->"}{" "}
