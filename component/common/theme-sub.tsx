@@ -41,8 +41,8 @@ function ThemeSubscribe() {
             안전이 걱정되시나요?
           </p>
           <p style={{ textAlign: "left" }}>
-            연로하신 <span style={{ fontWeight: "bold" }}>부모님</span>께서
-            안전하게 이동하실 수 있는 교통 수단이 고민이신가요?
+            소중한 우리 <span style={{ fontWeight: "bold" }}>반려동물</span>과
+            편안하게 택시를 탑승하고 싶으신가요?
           </p>
           <p style={{ textAlign: "left" }}>
             그렇다면{" "}
