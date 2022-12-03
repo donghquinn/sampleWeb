@@ -9,7 +9,7 @@ import AboutBusySub from "../component/common/unive-sub";
 function Subscribe() {
   return (
     <div>
-      <div>
+      <div style={{ margin: 10 }}>
         <h1
           style={{ textAlign: "center", fontWeight: "bold", fontSize: "300%" }}
         >

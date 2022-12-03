@@ -6,7 +6,10 @@ import CardContent from "@mui/material/CardContent";
 
 function AboutBusySub() {
   return (
-    <div className="flex flex-row justify-center space-y-5">
+    <div
+      className="flex flex-row justify-center space-y-5"
+      style={{ margin: 10 }}
+    >
       <Card sx={{ maxWidth: 1000 }} style={{ width: 600 }}>
         <CardContent>
           <h1
