@@ -21,7 +21,7 @@ function ThemeSubscribe() {
             THEME 구독권
           </h1>
           <div className="flex flex-col content-center">
-            <div className="flex justify-center">
+            <div className="flex justify-center" style={{ margin: 30 }}>
               <Image
                 src={family}
                 alt="family"
