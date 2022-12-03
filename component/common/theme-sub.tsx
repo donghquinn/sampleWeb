@@ -89,6 +89,66 @@ function ThemeSubscribe() {
               </Card>
             </div>
           </div>
+          <div>
+            <div className="flex flex-col content-start">
+              <div className="flex justify-start">
+                <Image
+                  src={dog}
+                  alt="doggy"
+                  height="250"
+                  width="250"
+                  style={{ alignContent: "start" }}
+                ></Image>
+                <div>
+                  <p
+                    className="flex flex-row content-end"
+                    style={{ margin: 30, marginLeft: 30, fontWeight: "bold" }}
+                  >
+                    반려동물을 위한 옵션
+                  </p>
+                  <p style={{ marginLeft: 30 }}>
+                    반려동물과 함께 택시 탑승이 가능하며,
+                  </p>
+                  <p style={{ marginLeft: 30 }}>반려견 카시트와 배변패드가</p>
+                  <p style={{ marginLeft: 30 }}>구비되어 있습니다.</p>
+                  <ul style={{ margin: 10, marginLeft: 30 }}>
+                    <li>최대 3마리까지 동승 가능</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="flex flex-col content-start">
+                <div className="flex justify-start">
+                  <Image
+                    src={carseat}
+                    alt="doggy"
+                    height="250"
+                    width="250"
+                    style={{ alignContent: "end" }}
+                  ></Image>
+                  <div>
+                    <p
+                      className="flex flex-row content-end"
+                      style={{ margin: 30, marginLeft: 30, fontWeight: "bold" }}
+                    >
+                      사랑하는 우리 아이를 위한 옵션
+                    </p>
+                    <p style={{ marginLeft: 30 }}>아이와 함께 택시 탑승 시</p>
+                    <p style={{ marginLeft: 30 }}>차 뒷자석에 카시트를 놓아</p>
+                    <p style={{ marginLeft: 30 }}>
+                      안전한 탑승을 할 수 있습니다.
+                    </p>
+                    <ul style={{ margin: 10, marginLeft: 30 }}>
+                      <li>영유아용 (0세 ~ 24개월, 9 ~ 18kg)</li>
+                      <li>주니어용 (만 4세 ~ 만 12세, 15 ~ 36 kg)</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </CardContent>
       </Card>
     </div>
