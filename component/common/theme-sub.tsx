@@ -9,7 +9,7 @@ import family from "../../public/img/family.jpeg";
 function ThemeSubscribe() {
   return (
     <div className="flex flex-row justify-center space-y-5">
-      <Card sx={{ maxWidth: 1000 }} style={{ width: 600, margin: 50 }}>
+      <Card sx={{ maxWidth: 1000 }} style={{ width: 600, margin: 10 }}>
         <CardContent>
           <h1
             style={{
