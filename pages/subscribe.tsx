@@ -24,11 +24,11 @@ function Subscribe() {
         <p style={{ textAlign: "center" }}>
           저희가 제공하는 구독은 두가지로 나뉩니다.
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", margin: 7 }}>
           <span style={{ fontWeight: "bold" }}>FAST 구독권:</span> 바쁜 학생들과
           직장인을 위한 구독권
         </p>
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", margin: 7 }}>
           <span style={{ fontWeight: "bold" }}>THEME 구독권:</span> 사랑하는
           당신의 가족을 위한 구독권
         </p>

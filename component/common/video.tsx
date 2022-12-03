@@ -15,13 +15,14 @@ const VideoPlayer = () => {
       <div className="flex justify-center player">
         {hasWindow && (
           <ReactPlayer
-            className="player"
+            className="player flex flex-col content-center"
             url="/videos/final.mp4"
             width="90%"
             height="90%"
             playing={true}
             muted={true}
             loop={true}
+            controls={true}
           ></ReactPlayer>
         )}
       </div>
